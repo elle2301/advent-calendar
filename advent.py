@@ -1,0 +1,1 @@
+import streamlit as stst.title("🎄 Adventskalender")sprueche = {i: f"Das ist Spruch Nummer {i} 🎁" for i in range(1, 25)}for i in range(1, 25):    if st.button(f"Türchen {i}"):        st.success(sprueche[i])
